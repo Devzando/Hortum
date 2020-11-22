@@ -1,0 +1,25 @@
+{
+  "name": "hortumbackend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "knex:migrate": "knex migrate:latest --knexfile knexfile.js",
+    "knex:rollback": "knex migrate:rollback",
+    "knex:seed": "knex seed:run --knexfile knexfile.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.2",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
