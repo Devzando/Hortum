@@ -23,7 +23,7 @@ module.exports = {
             .select('imagegardens.image_url');
             
             result.forEach(item => {
-                return item.image_url =  `http://192.168.0.102:3333/uploads/${item.image_url}`
+                return item.image_url =  `http://192.168.0.103:3333/uploads/${item.image_url}`
            })
             res.json(result);
 

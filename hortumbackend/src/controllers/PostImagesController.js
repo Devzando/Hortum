@@ -2,7 +2,7 @@ const knex = require('../database/connection');
 
 module.exports = {
     async create(req, res) {
-        const image_url = `http://192.168.0.102:3333/uploads/${req.file.filename}`;
+        const image_url = `http://192.168.0.103:3333/uploads/${req.file.filename}`;
         const { name, description, width, heigth } = req.body;
         const likes = 0;
         const aspect = width/heigth;
