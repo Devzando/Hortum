@@ -1,4 +1,4 @@
-<h1 align='center'>Hortum Aplication</h1>
+<h1 align='center'>Hortum Application</h1>
 
 <h2 align='center'>
     <img src='hortumfrontend/src/assets/video-hortum-para-gif.gif' width='250' height='500' >
